@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dW8ersbajRe2Jty0hemqAmtkLzbrUD5WNxhwwxUw1l8m0ipjCcN14eQZjy6EBKaboceHrkKYh1TyzHIBLhGYCg==",
+  "dgSpecHash": "isbF4jR5X084Ru64iI9rfFn9s0xpWuSgFrXvPEQ5e/bb8gXeH4s4kJyrEOf1sFUsoqe77GdS7EZbtAUoD3g6sA==",
   "success": true,
-  "projectFilePath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Common\\FlyMosquito.Common.csproj",
+  "projectFilePath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.Common\\FlyMosquito.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

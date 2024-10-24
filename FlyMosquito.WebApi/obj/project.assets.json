@@ -6548,11 +6548,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.WebApi\\FlyMosquito.WebApi.csproj",
+      "projectUniqueName": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.WebApi\\FlyMosquito.WebApi.csproj",
       "projectName": "FlyMosquito.WebApi",
-      "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.WebApi\\FlyMosquito.WebApi.csproj",
+      "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.WebApi\\FlyMosquito.WebApi.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.WebApi\\obj\\",
+      "outputPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6569,11 +6569,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.DataTransferObjec\\FlyMosquito.DataTransferObjec.csproj": {
-              "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.DataTransferObjec\\FlyMosquito.DataTransferObjec.csproj"
+            "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.DataTransferObjec\\FlyMosquito.DataTransferObjec.csproj": {
+              "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.DataTransferObjec\\FlyMosquito.DataTransferObjec.csproj"
             },
-            "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Extension\\FlyMosquito.Extension.csproj": {
-              "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Extension\\FlyMosquito.Extension.csproj"
+            "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.Extension\\FlyMosquito.Extension.csproj": {
+              "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.Extension\\FlyMosquito.Extension.csproj"
             }
           }
         }

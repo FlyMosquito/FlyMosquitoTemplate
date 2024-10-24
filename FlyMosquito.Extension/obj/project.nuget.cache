@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YpokIgv1HMbF+TzaAxw9v9fOx3hzsmTJFHWyyOUhBifylBSM0bIRS/ImDSbTLWTzR/fbanTwpoV0/6enJ7q3qw==",
+  "dgSpecHash": "5KzbxkQCDkWtD2aup37JEaDY8rvzTGg24V13paNUwVFs7iOueArd9RsymZgMXu4RO3Ij4il8OGrC+Dvwprp8tA==",
   "success": true,
-  "projectFilePath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Extension\\FlyMosquito.Extension.csproj",
+  "projectFilePath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.Extension\\FlyMosquito.Extension.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

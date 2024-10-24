@@ -11,7 +11,7 @@ namespace FlyMosquito.Test
             //测试接口
             Console.WriteLine("Hello, World!");
             RequestHelper RequestHelper = new RequestHelper();
-            string StringBaseUrl = "http://120.79.185.223:8090";
+            string StringBaseUrl = "****";
             string ApiUrl = "/Login/LoginUserAsync?Uid=UID613512&PassWord=123456";
             var StringResponse = await RequestHelper.PostAsync($"{StringBaseUrl}{ApiUrl}");
             Console.WriteLine($"{StringResponse}\n");

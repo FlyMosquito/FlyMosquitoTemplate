@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tQPijJvKa98R+76aV/URUADUGmrBNtg0wxJFm5UH14wWLEnwo+F7YdXSAfg25cllwDocKP2XlGcB493kKbrfuw==",
+  "dgSpecHash": "pLfwoBk6ss1xzz/qu5E/Jl/cSaijV2oBn9GKcLb0IlDkBw9agGLdkX7Dj2PpHchtVEPgNnSLQ/eY36WK7TUs4w==",
   "success": true,
-  "projectFilePath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Core\\FlyMosquito.Core.csproj",
+  "projectFilePath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.Core\\FlyMosquito.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

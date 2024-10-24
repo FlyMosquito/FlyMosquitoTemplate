@@ -4983,11 +4983,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Core\\FlyMosquito.Core.csproj",
+      "projectUniqueName": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.Core\\FlyMosquito.Core.csproj",
       "projectName": "FlyMosquito.Core",
-      "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Core\\FlyMosquito.Core.csproj",
+      "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.Core\\FlyMosquito.Core.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Core\\obj\\",
+      "outputPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5004,11 +5004,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Common\\FlyMosquito.Common.csproj": {
-              "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Common\\FlyMosquito.Common.csproj"
+            "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.Common\\FlyMosquito.Common.csproj": {
+              "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.Common\\FlyMosquito.Common.csproj"
             },
-            "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Domain\\FlyMosquito.Domain.csproj": {
-              "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Domain\\FlyMosquito.Domain.csproj"
+            "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.Domain\\FlyMosquito.Domain.csproj": {
+              "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\FlyMosquito.Domain\\FlyMosquito.Domain.csproj"
             }
           }
         }

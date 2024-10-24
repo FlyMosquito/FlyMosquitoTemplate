@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlyMosquito.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6a046434d78ea2d7723088cccc7e36d65a32ba3")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlyMosquito.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlyMosquito.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
