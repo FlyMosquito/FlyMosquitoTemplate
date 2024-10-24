@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OA60l24Azz40ousqgUZVk1GaRFGPYWzBstNh6mkRpFk=",
+  "Source": "RBACDemo.WebApi",
+  "BasePath": "_content/RBACDemo.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

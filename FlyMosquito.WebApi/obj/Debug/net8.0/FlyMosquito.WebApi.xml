@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FlyMosquito.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:FlyMosquito.WebApi.Controllers.ApiAuthController.#ctor(FlyMosquito.Common.ApiRouteInfoHelper,FlyMosquito.Service.Basic.IBaseService.IApiAuthService)">
+            <summary>
+            用户构造函数
+            </summary>
+            <param name="apiRouteInfoService"></param>
+            <param name="apiAuthService"></param>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.ApiAuthController.GetApiAuthAsync">
+            <summary>
+            获取所有接口信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:FlyMosquito.WebApi.Controllers.LoginController">
+            <summary>
+             用户登录
+            </summary>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.LoginController.#ctor(FlyMosquito.Service.Basic.IBaseService.IUserService,FlyMosquito.Service.AuditLog.IAuditLogService.ILoginLogService,FlyMosquito.Extension.SetUp.LoginLogSetup)">
+            <summary>
+            用户登录控制器构造函数
+            </summary>
+            <param name="userService"></param>
+            <param name="loginLogService"></param>
+            <param name="loginLogSetup"></param>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.LoginController.LoginUserAsync(System.String,System.String)">
+            <summary>
+            用户登陆
+            </summary>
+            <param name="Uid">账号</param>
+            <param name="PassWord">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.LoginController.LogOutUserAsync">
+            <summary>
+            用户登出
+            </summary>
+        </member>
+        <member name="T:FlyMosquito.WebApi.Controllers.RoleController">
+            <summary>
+            角色控制器
+            </summary>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.RoleController.#ctor(FlyMosquito.Service.Basic.IBaseService.IRoleService,FlyMosquito.Service.Basic.IBaseService.IRoleApiAuthMappingService)">
+            <summary>
+            角色控制器构造函数
+            </summary>
+            <param name="roleService"></param>
+            <param name="roleApiAuthMappingService"></param>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.RoleController.GetRoleAsync">
+            <summary>
+            获取所有角色信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.RoleController.GetRoleByIdAsync(System.Int32)">
+            <summary>
+            通过角色ID获取角色信息
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.RoleController.AddRoleAsync(System.String)">
+            <summary>
+            新增角色
+            </summary>
+            <param name="RoleName">角色姓名</param>
+            <returns>操作结果</returns>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.RoleController.DeleteRoleAsync(System.Int32)">
+            <summary> 
+            删除角色
+            </summary>
+            <param name="Id">角色ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.RoleController.UpdateRoleAsync(FlyMosquito.Domain.Role)">
+            <summary>
+            编辑角色
+            </summary>
+            <param name="Role">需要编辑角色信息的实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.RoleController.GetRoleApiAuthAsync(System.Int32)">
+            <summary>
+            获取角色对应的权限
+            </summary>
+            <param name="RoleId"></param>
+            <returns></returns>'
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.RoleController.AssignRoleApiAuthAsync(FlyMosquito.DataTransferObjec.RoleApiAuthMappingDto)">
+            <summary>
+            更新角色对应的权限
+            </summary>
+            <param name="RoleApiAuthMappingDto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FlyMosquito.WebApi.Controllers.UserController">
+            <summary>
+            用户控制器
+            </summary>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.UserController.#ctor(FlyMosquito.Service.Basic.IBaseService.IUserService,FlyMosquito.Service.Basic.IBaseService.IUserRoleMappingService)">
+            <summary>
+            用户控制器构造函数
+            </summary>
+            <param name="userService"></param>
+            <param name="userRoleMappingService"></param>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.UserController.GetUserAsync">
+            <summary>
+            获取所有用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.UserController.GetUserRolesAsync(System.Int32)">
+            <summary>
+            获取用户对应的角色信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.UserController.AddUserAsync(System.String,System.String)">
+            <summary>
+            新增用户
+            </summary>
+            <param name="UserName"></param>
+            <param name="PassWord"></param>
+            <returns></returns> 
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.UserController.DeleteUserAsync(System.Int32)">
+            <summary>
+            删除用户
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.UserController.UpdateUserAsync(FlyMosquito.DataTransferObjec.UserDto)">
+            <summary>
+            编辑用户信息
+            </summary>
+            <param name="UserDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FlyMosquito.WebApi.Controllers.UserController.AssignUserRolesAsync(FlyMosquito.DataTransferObjec.UserRoleMappingDto)">
+            <summary>
+            为用户分配权限
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FlyMosquito.Extension.Filter.GlobalActionFilter.#ctor(FlyMosquito.Service.AuditLog.IAuditLogService.IWebApiLogService)">
+            <summary>
+            
+            </summary>
+            <param name="webApiLogService"></param>
+        </member>
+        <member name="M:FlyMosquito.Extension.Filter.GlobalActionFilter.OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)">
+            <summary>
+            在结果执行后调用，记录请求和响应数据
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:FlyMosquito.Extension.Filter.GlobalActionFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            在结果执行前调用，保存请求数据
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:FlyMosquito.Extension.Filter.GlobalActionFilter.GetClientIp(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            获取客户端 IP 地址
+            </summary>
+            <param name="context">HTTP 上下文</param>
+            <returns>客户端 IP 地址</returns>
+        </member>
+    </members>
+</doc>

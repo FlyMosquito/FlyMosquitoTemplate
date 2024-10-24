@@ -1,0 +1,11 @@
+G:\01.代码\.NET\temple\FlyMosquitoTemplate\content\FlyMosquito.Domain\bin\Debug\net8.0\FlyMosquito.Domain.deps.json
+G:\01.代码\.NET\temple\FlyMosquitoTemplate\content\FlyMosquito.Domain\bin\Debug\net8.0\FlyMosquito.Domain.dll
+G:\01.代码\.NET\temple\FlyMosquitoTemplate\content\FlyMosquito.Domain\bin\Debug\net8.0\FlyMosquito.Domain.pdb
+G:\01.代码\.NET\temple\FlyMosquitoTemplate\content\FlyMosquito.Domain\obj\Debug\net8.0\FlyMosquito.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\01.代码\.NET\temple\FlyMosquitoTemplate\content\FlyMosquito.Domain\obj\Debug\net8.0\FlyMosquito.Domain.AssemblyInfoInputs.cache
+G:\01.代码\.NET\temple\FlyMosquitoTemplate\content\FlyMosquito.Domain\obj\Debug\net8.0\FlyMosquito.Domain.AssemblyInfo.cs
+G:\01.代码\.NET\temple\FlyMosquitoTemplate\content\FlyMosquito.Domain\obj\Debug\net8.0\FlyMosquito.Domain.csproj.CoreCompileInputs.cache
+G:\01.代码\.NET\temple\FlyMosquitoTemplate\content\FlyMosquito.Domain\obj\Debug\net8.0\FlyMosquito.Domain.dll
+G:\01.代码\.NET\temple\FlyMosquitoTemplate\content\FlyMosquito.Domain\obj\Debug\net8.0\refint\FlyMosquito.Domain.dll
+G:\01.代码\.NET\temple\FlyMosquitoTemplate\content\FlyMosquito.Domain\obj\Debug\net8.0\FlyMosquito.Domain.pdb
+G:\01.代码\.NET\temple\FlyMosquitoTemplate\content\FlyMosquito.Domain\obj\Debug\net8.0\ref\FlyMosquito.Domain.dll

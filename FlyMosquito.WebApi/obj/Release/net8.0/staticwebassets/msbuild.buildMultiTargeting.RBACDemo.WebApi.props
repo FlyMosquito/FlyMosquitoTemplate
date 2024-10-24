@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RBACDemo.WebApi.props" />
+</Project>

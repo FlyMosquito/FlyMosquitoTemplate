@@ -1,0 +1,404 @@
+[
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.ApiAuthController",
+    "Method": "GetApiAuthAsync",
+    "RelativePath": "ApiAuth/GetApiAuthAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[System.Collections.Generic.List\u00601[[FlyMosquito.Domain.ApiAuth, FlyMosquito.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.LoginController",
+    "Method": "LoginUserAsync",
+    "RelativePath": "Login/LoginUserAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Uid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PassWord",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[FlyMosquito.DataTransferObjec.UserInfoDto, FlyMosquito.DataTransferObjec, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.LoginController",
+    "Method": "LogOutUserAsync",
+    "RelativePath": "Login/LogOutUserAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.RoleController",
+    "Method": "AddRoleAsync",
+    "RelativePath": "Role/AddRoleAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[FlyMosquito.Domain.Role, FlyMosquito.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.RoleController",
+    "Method": "AssignRoleApiAuthAsync",
+    "RelativePath": "Role/AssignRoleApiAuthAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleApiAuthMappingDto",
+        "Type": "FlyMosquito.DataTransferObjec.RoleApiAuthMappingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.RoleController",
+    "Method": "DeleteRoleAsync",
+    "RelativePath": "Role/DeleteRoleAsync",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.RoleController",
+    "Method": "GetRoleApiAuthAsync",
+    "RelativePath": "Role/GetRoleApiAuthAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[System.Collections.Generic.List\u00601[[FlyMosquito.Domain.RoleApiAuthMapping, FlyMosquito.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.RoleController",
+    "Method": "GetRoleAsync",
+    "RelativePath": "Role/GetRoleAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[System.Collections.Generic.List\u00601[[FlyMosquito.Domain.Role, FlyMosquito.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.RoleController",
+    "Method": "GetRoleByIdAsync",
+    "RelativePath": "Role/GetRoleByIdAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[System.Collections.Generic.List\u00601[[FlyMosquito.Domain.Role, FlyMosquito.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.RoleController",
+    "Method": "UpdateRoleAsync",
+    "RelativePath": "Role/UpdateRoleAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Role",
+        "Type": "FlyMosquito.Domain.Role",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[FlyMosquito.Domain.Role, FlyMosquito.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.UserController",
+    "Method": "AddUserAsync",
+    "RelativePath": "User/AddUserAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PassWord",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[FlyMosquito.DataTransferObjec.UserDto, FlyMosquito.DataTransferObjec, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.UserController",
+    "Method": "AssignUserRolesAsync",
+    "RelativePath": "User/AssignUserRolesAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FlyMosquito.DataTransferObjec.UserRoleMappingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.UserController",
+    "Method": "DeleteUserAsync",
+    "RelativePath": "User/DeleteUserAsync",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.UserController",
+    "Method": "GetUserAsync",
+    "RelativePath": "User/GetUserAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[System.Collections.Generic.List\u00601[[FlyMosquito.Domain.User, FlyMosquito.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.UserController",
+    "Method": "GetUserRolesAsync",
+    "RelativePath": "User/GetUserRolesAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[System.Collections.Generic.List\u00601[[FlyMosquito.Domain.UserRoleMapping, FlyMosquito.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlyMosquito.WebApi.Controllers.UserController",
+    "Method": "UpdateUserAsync",
+    "RelativePath": "User/UpdateUserAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserDto",
+        "Type": "FlyMosquito.DataTransferObjec.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FlyMosquito.Domain.ApiResult\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

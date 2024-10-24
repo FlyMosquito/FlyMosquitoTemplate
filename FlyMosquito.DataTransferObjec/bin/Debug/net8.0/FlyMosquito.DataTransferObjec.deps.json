@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FlyMosquito.DataTransferObjec/1.0.0": {
+        "dependencies": {
+          "FlyMosquito.Domain": "1.0.0"
+        },
+        "runtime": {
+          "FlyMosquito.DataTransferObjec.dll": {}
+        }
+      },
+      "FlyMosquito.Domain/1.0.0": {
+        "runtime": {
+          "FlyMosquito.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FlyMosquito.DataTransferObjec/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FlyMosquito.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

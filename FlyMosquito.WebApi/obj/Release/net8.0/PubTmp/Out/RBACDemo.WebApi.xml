@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RBACDemo.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:RBACDemo.WebApi.Controllers.ApiAuthController.#ctor(RBACDemo.Extension.Authorizations.ApiRouteInfoManager,RBACDemo.Service.IApiAuthService)">
+            <summary>
+            用户构造函数
+            </summary>
+            <param name="apiRouteInfoService"></param>
+            <param name="apiAuthService"></param>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.ApiAuthController.GetApiAuthAsync">
+            <summary>
+            获取所有接口信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:RBACDemo.WebApi.Controllers.LoginController">
+            <summary>
+             用户登录
+            </summary>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.LoginController.#ctor(RBACDemo.Service.IBaseService.IUserService,RBACDemo.Service.ILoginLogService,RBACDemo.Extension.ServiceExtensions.LoginLogSetup)">
+            <summary>
+            用户登录控制器构造函数
+            </summary>
+            <param name="userService"></param>
+            <param name="loginLogService"></param>
+            <param name="loginLogSetup"></param>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.LoginController.LoginUserAsync(System.String,System.String)">
+            <summary>
+            用户登陆
+            </summary>
+            <param name="Uid">账号</param>
+            <param name="PassWord">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.LoginController.LogOutUserAsync">
+            <summary>
+            用户登出
+            </summary>
+        </member>
+        <member name="T:RBACDemo.WebApi.Controllers.RoleController">
+            <summary>
+            角色控制器
+            </summary>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.RoleController.#ctor(RBACDemo.Service.IRoleService,RBACDemo.Service.IRoleApiAuthMappingService)">
+            <summary>
+            角色控制器构造函数
+            </summary>
+            <param name="roleService"></param>
+            <param name="roleApiAuthMappingService"></param>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.RoleController.GetRoleAsync">
+            <summary>
+            获取所有角色信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.RoleController.GetRoleByIdAsync(System.Int32)">
+            <summary>
+            通过角色ID获取角色信息
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.RoleController.AddRoleAsync(System.String)">
+            <summary>
+            新增角色
+            </summary>
+            <param name="RoleName">角色姓名</param>
+            <returns>操作结果</returns>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.RoleController.DeleteRoleAsync(System.Int32)">
+            <summary> 
+            删除角色
+            </summary>
+            <param name="Id">角色ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.RoleController.UpdateRoleAsync(RBACDemo.Domain.Role)">
+            <summary>
+            编辑角色
+            </summary>
+            <param name="Role">需要编辑角色信息的实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.RoleController.GetRoleApiAuthAsync(System.Int32)">
+            <summary>
+            获取角色对应的权限
+            </summary>
+            <param name="RoleId"></param>
+            <returns></returns>'
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.RoleController.AssignRoleApiAuthAsync(RBACDemo.DataTransferObjec.RoleApiAuthMappingDto)">
+            <summary>
+            更新角色对应的权限
+            </summary>
+            <param name="RoleApiAuthMappingDto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RBACDemo.WebApi.Controllers.UserController">
+            <summary>
+            用户控制器
+            </summary>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.UserController.#ctor(RBACDemo.Service.IBaseService.IUserService,RBACDemo.Service.IUserRoleMappingService)">
+            <summary>
+            用户控制器构造函数
+            </summary>
+            <param name="userService"></param>
+            <param name="userRoleMappingService"></param>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.UserController.GetUserAsync">
+            <summary>
+            获取所有用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.UserController.GetUserRolesAsync(System.Int32)">
+            <summary>
+            获取用户对应的角色信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.UserController.AddUserAsync(System.String,System.String)">
+            <summary>
+            新增用户
+            </summary>
+            <param name="UserName"></param>
+            <param name="PassWord"></param>
+            <returns></returns> 
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.UserController.DeleteUserAsync(System.Int32)">
+            <summary>
+            删除用户
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.UserController.UpdateUserAsync(RBACDemo.DataTransferObjec.UserDto)">
+            <summary>
+            编辑用户信息
+            </summary>
+            <param name="UserDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RBACDemo.WebApi.Controllers.UserController.AssignUserRolesAsync(RBACDemo.DataTransferObjec.UserRoleMappingDto)">
+            <summary>
+            为用户分配权限
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

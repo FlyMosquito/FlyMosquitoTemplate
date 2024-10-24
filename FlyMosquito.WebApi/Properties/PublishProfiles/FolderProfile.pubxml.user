@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>G:\01.代码\.NET\RBACDemo.WebApi</_PublishTargetUrl>
+    <History>True|2024-10-17T09:47:33.8496619Z;True|2024-10-17T15:33:11.3415304+08:00;True|2024-10-16T16:54:30.9721023+08:00;True|2024-10-16T16:51:45.7334637+08:00;True|2024-10-12T14:49:12.0265634+08:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Default">
+      <Value>Data Source=120.79.185.223%3bdatabase=RBACDemo%3buid=sa%3bpwd=LH251907Lzy%3bTrustServerCertificate=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

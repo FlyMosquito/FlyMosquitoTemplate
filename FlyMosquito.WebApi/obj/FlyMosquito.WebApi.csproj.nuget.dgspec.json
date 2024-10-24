@@ -1,0 +1,558 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.WebApi\\FlyMosquito.WebApi.csproj": {}
+  },
+  "projects": {
+    "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Common\\FlyMosquito.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Common\\FlyMosquito.Common.csproj",
+        "projectName": "FlyMosquito.Common",
+        "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Common\\FlyMosquito.Common.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Domain\\FlyMosquito.Domain.csproj": {
+                "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Domain\\FlyMosquito.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.16, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Core\\FlyMosquito.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Core\\FlyMosquito.Core.csproj",
+        "projectName": "FlyMosquito.Core",
+        "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Core\\FlyMosquito.Core.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Common\\FlyMosquito.Common.csproj": {
+                "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Common\\FlyMosquito.Common.csproj"
+              },
+              "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Domain\\FlyMosquito.Domain.csproj": {
+                "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Domain\\FlyMosquito.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.DataTransferObjec\\FlyMosquito.DataTransferObjec.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.DataTransferObjec\\FlyMosquito.DataTransferObjec.csproj",
+        "projectName": "FlyMosquito.DataTransferObjec",
+        "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.DataTransferObjec\\FlyMosquito.DataTransferObjec.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.DataTransferObjec\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Domain\\FlyMosquito.Domain.csproj": {
+                "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Domain\\FlyMosquito.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Domain\\FlyMosquito.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Domain\\FlyMosquito.Domain.csproj",
+        "projectName": "FlyMosquito.Domain",
+        "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Domain\\FlyMosquito.Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Extension\\FlyMosquito.Extension.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Extension\\FlyMosquito.Extension.csproj",
+        "projectName": "FlyMosquito.Extension",
+        "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Extension\\FlyMosquito.Extension.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Extension\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Common\\FlyMosquito.Common.csproj": {
+                "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Common\\FlyMosquito.Common.csproj"
+              },
+              "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Service\\FlyMosquito.Service.csproj": {
+                "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Service\\FlyMosquito.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.7.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Service\\FlyMosquito.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Service\\FlyMosquito.Service.csproj",
+        "projectName": "FlyMosquito.Service",
+        "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Service\\FlyMosquito.Service.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Common\\FlyMosquito.Common.csproj": {
+                "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Common\\FlyMosquito.Common.csproj"
+              },
+              "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Core\\FlyMosquito.Core.csproj": {
+                "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Core\\FlyMosquito.Core.csproj"
+              },
+              "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.DataTransferObjec\\FlyMosquito.DataTransferObjec.csproj": {
+                "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.DataTransferObjec\\FlyMosquito.DataTransferObjec.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.WebApi\\FlyMosquito.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.WebApi\\FlyMosquito.WebApi.csproj",
+        "projectName": "FlyMosquito.WebApi",
+        "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.WebApi\\FlyMosquito.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.DataTransferObjec\\FlyMosquito.DataTransferObjec.csproj": {
+                "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.DataTransferObjec\\FlyMosquito.DataTransferObjec.csproj"
+              },
+              "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Extension\\FlyMosquito.Extension.csproj": {
+                "projectPath": "G:\\01.代码\\.NET\\temple\\FlyMosquitoTemplate\\content\\FlyMosquito.Extension\\FlyMosquito.Extension.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.7.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
